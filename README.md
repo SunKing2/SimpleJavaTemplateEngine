@@ -2,10 +2,12 @@
 
 Entire source code is in TemplateEngine.java
 
-A template is an array of String,
--typically, each ends with \n
+A template is an array of String, typically, each ends with \n
+
 -createTemplateUsingStringsArray() 
+
 -addReplacement() to replace items in the template.
+
 -getResults() performs substitutions in the template with real values,
    and returns a single string. (it concatenates the substituted array). 
 
